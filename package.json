@@ -1,0 +1,19 @@
+{
+  "name": "jarvis",
+  "version": "0.0.0",
+  "description": "A gecko code converter",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waffln/jarvis.git"
+  },
+  "author": "waffeln",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/waffln/jarvis/issues"
+  },
+  "homepage": "https://github.com/waffln/jarvis#readme"
+}
