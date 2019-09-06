@@ -58,6 +58,11 @@ fs.readFile(filePath, "utf-8", (err, data) => {
     }
   })
 
+  const secondArr = lines.filter(line => line.startsWith("* "))
+    .map(line => {
+      line.substr(2).trim().replace(" ", "")
+    })
+
   outArr.push("F000000000000000")
 
   console.log(outArr)
